@@ -91,55 +91,6 @@
   !*** ./node_modules/axios/index.js ***!
   \*************************************/
 /*! no static exports found */
-<<<<<<< HEAD
-/***/ (function(module, exports) {
-
-throw new Error("Module build failed: Error: ENOENT: no such file or directory, open '/var/www/laravel-weibo/node_modules/axios/index.js'");
-
-/***/ }),
-
-/***/ "./node_modules/bootstrap/dist/js/bootstrap.js":
-/*!*****************************************************!*\
-  !*** ./node_modules/bootstrap/dist/js/bootstrap.js ***!
-  \*****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-throw new Error("Module build failed: Error: ENOENT: no such file or directory, open '/var/www/laravel-weibo/node_modules/bootstrap/dist/js/bootstrap.js'");
-
-/***/ }),
-
-/***/ "./node_modules/jquery/dist/jquery.js":
-/*!********************************************!*\
-  !*** ./node_modules/jquery/dist/jquery.js ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-throw new Error("Module build failed: Error: ENOENT: no such file or directory, open '/var/www/laravel-weibo/node_modules/jquery/dist/jquery.js'");
-
-/***/ }),
-
-/***/ "./node_modules/lodash/lodash.js":
-/*!***************************************!*\
-  !*** ./node_modules/lodash/lodash.js ***!
-  \***************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-throw new Error("Module build failed: Error: ENOENT: no such file or directory, open '/var/www/laravel-weibo/node_modules/lodash/lodash.js'");
-
-/***/ }),
-
-/***/ "./node_modules/popper.js/dist/esm/popper.js":
-/*!***************************************************!*\
-  !*** ./node_modules/popper.js/dist/esm/popper.js ***!
-  \***************************************************/
-/*! exports provided: default */
-/***/ (function(module, exports) {
-
-throw new Error("Module build failed: Error: ENOENT: no such file or directory, open '/var/www/laravel-weibo/node_modules/popper.js/dist/esm/popper.js'");
-=======
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! ./lib/axios */ "./node_modules/axios/lib/axios.js");
@@ -36957,7 +36908,6 @@ module.exports = function(module) {
 	return module;
 };
 
->>>>>>> filling-layout-style
 
 /***/ }),
 
@@ -37024,11 +36974,7 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-<<<<<<< HEAD
-throw new Error("Module build failed (from ./node_modules/css-loader/index.js):\nModuleBuildError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\n\n@import '~bootstrap/scss/bootstrap';\n       ^\n      Can't find stylesheet to import.\n  ╷\n2 │ @import '~bootstrap/scss/bootstrap';\n  │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  ╵\n  stdin 2:9  root stylesheet\n      in /var/www/laravel-weibo/resources/sass/app.scss (line 2, column 9)\n    at /var/www/laravel-weibo/node_modules/webpack/lib/NormalModule.js:316:20\n    at /var/www/laravel-weibo/node_modules/loader-runner/lib/LoaderRunner.js:367:11\n    at /var/www/laravel-weibo/node_modules/loader-runner/lib/LoaderRunner.js:233:18\n    at context.callback (/var/www/laravel-weibo/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at /var/www/laravel-weibo/node_modules/sass-loader/dist/index.js:89:7\n    at Function.call$2 (/var/www/laravel-weibo/node_modules/sass/sass.dart.js:54306:16)\n    at _render_closure1.call$2 (/var/www/laravel-weibo/node_modules/sass/sass.dart.js:33504:12)\n    at _RootZone.runBinary$3$3 (/var/www/laravel-weibo/node_modules/sass/sass.dart.js:19820:18)\n    at _RootZone.runBinary$3 (/var/www/laravel-weibo/node_modules/sass/sass.dart.js:19824:19)\n    at _FutureListener.handleError$1 (/var/www/laravel-weibo/node_modules/sass/sass.dart.js:18289:19)\n    at _Future__propagateToListeners_handleError.call$0 (/var/www/laravel-weibo/node_modules/sass/sass.dart.js:18577:40)\n    at Object._Future__propagateToListeners (/var/www/laravel-weibo/node_modules/sass/sass.dart.js:3484:88)\n    at _Future._completeError$2 (/var/www/laravel-weibo/node_modules/sass/sass.dart.js:18413:9)\n    at _AsyncAwaitCompleter.completeError$2 (/var/www/laravel-weibo/node_modules/sass/sass.dart.js:17812:12)\n    at Object._asyncRethrow (/var/www/laravel-weibo/node_modules/sass/sass.dart.js:3240:17)\n    at /var/www/laravel-weibo/node_modules/sass/sass.dart.js:10541:20\n    at _wrapJsFunctionForAsync_closure.$protected (/var/www/laravel-weibo/node_modules/sass/sass.dart.js:3263:15)\n    at _wrapJsFunctionForAsync_closure.call$2 (/var/www/laravel-weibo/node_modules/sass/sass.dart.js:17833:12)\n    at _awaitOnObject_closure0.call$2 (/var/www/laravel-weibo/node_modules/sass/sass.dart.js:17825:25)\n    at _RootZone.runBinary$3$3 (/var/www/laravel-weibo/node_modules/sass/sass.dart.js:19820:18)\n    at _RootZone.runBinary$3 (/var/www/laravel-weibo/node_modules/sass/sass.dart.js:19824:19)\n    at _FutureListener.handleError$1 (/var/www/laravel-weibo/node_modules/sass/sass.dart.js:18289:19)\n    at _Future__propagateToListeners_handleError.call$0 (/var/www/laravel-weibo/node_modules/sass/sass.dart.js:18577:40)\n    at Object._Future__propagateToListeners (/var/www/laravel-weibo/node_modules/sass/sass.dart.js:3484:88)\n    at _Future._completeError$2 (/var/www/laravel-weibo/node_modules/sass/sass.dart.js:18413:9)\n    at _AsyncAwaitCompleter.completeError$2 (/var/www/laravel-weibo/node_modules/sass/sass.dart.js:17812:12)\n    at Object._asyncRethrow (/var/www/laravel-weibo/node_modules/sass/sass.dart.js:3240:17)\n    at /var/www/laravel-weibo/node_modules/sass/sass.dart.js:12242:20\n    at _wrapJsFunctionForAsync_closure.$protected (/var/www/laravel-weibo/node_modules/sass/sass.dart.js:3263:15)\n    at _wrapJsFunctionForAsync_closure.call$2 (/var/www/laravel-weibo/node_modules/sass/sass.dart.js:17833:12)\n    at _awaitOnObject_closure0.call$2 (/var/www/laravel-weibo/node_modules/sass/sass.dart.js:17825:25)\n    at _RootZone.runBinary$3$3 (/var/www/laravel-weibo/node_modules/sass/sass.dart.js:19820:18)\n    at _RootZone.runBinary$3 (/var/www/laravel-weibo/node_modules/sass/sass.dart.js:19824:19)\n    at _FutureListener.handleError$1 (/var/www/laravel-weibo/node_modules/sass/sass.dart.js:18289:19)\n    at _Future__propagateToListeners_handleError.call$0 (/var/www/laravel-weibo/node_modules/sass/sass.dart.js:18577:40)\n    at Object._Future__propagateToListeners (/var/www/laravel-weibo/node_modules/sass/sass.dart.js:3484:88)");
-=======
 // removed by extract-text-webpack-plugin
->>>>>>> filling-layout-style
 
 /***/ }),
 
